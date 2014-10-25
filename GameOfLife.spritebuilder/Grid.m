@@ -65,7 +65,6 @@ static const int GRID_COLUMNS = 10;
 
 - (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event
 {
-    CCLOG(@"blah");
     //get the x,y coordinates of the touch
     CGPoint touchLocation = [touch locationInNode:self];
     
