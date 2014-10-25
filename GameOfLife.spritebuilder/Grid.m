@@ -27,6 +27,8 @@ static const int GRID_COLUMNS = 10;
     
     // accept touches on the grid
     self.userInteractionEnabled = YES;
+    
+    CCLOG(@"blah");
 }
 
 - (void)setupGrid
