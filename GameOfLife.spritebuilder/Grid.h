@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 Apportable. All rights reserved.
 //
 
-#import "CCNode.h"
+#import "CCSprite.h"
 
-@interface Grid: CCNode
+@interface Grid: CCSprite
 
 @property (nonatomic, assign) int totalAlive;
 @property (nonatomic, assign) int generation;
